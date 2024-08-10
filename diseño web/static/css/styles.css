@@ -1,0 +1,62 @@
+.img-fluid{
+    width: 100%;
+    height: 600px;
+}
+#h1{
+    color: #ffffff;
+}
+#h12{
+    color: #30972d;
+}
+#h13{
+    
+    color: #f1f51e;
+}
+.p{
+    font-weight: bolder;
+    
+}
+#p2{
+    color: #05ff9f;
+}
+.bg-cust{
+    background-color: black;
+}
+.fc{
+    color: white;
+    padding-left: 5px;
+}
+#img{
+    padding: 0 10px 0 0;
+}
+@font-face {
+    font-family: 'Allura';
+    src: url('../fonts/Allura-Regular.ttf') format('truetype');
+}
+.fon{
+    font-family: 'Allura';
+    font-size: 24px;
+}
+@font-face {
+    font-family: 'Zen_Dots';
+    src: url('../fonts/ZenDots-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+.fuen{
+    font-family: 'Roboto';
+}
+.fue{
+    font-family: 'Zen_Dots';
+}
+@media screen and (max-width: 768px) {
+    .nav-link,.dropdown-item{
+      font-size: 10px; 
+    }
+  }
+.imag{
+    width: 474px;
+    height: 474px;
+}
